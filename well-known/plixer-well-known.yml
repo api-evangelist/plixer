@@ -1,0 +1,11 @@
+generated: '2026-07-20'
+method: searched
+host: https://www.plixer.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+notes: >-
+  No /.well-known discovery surface published on www.plixer.com as of the probe
+  date. security.txt returned 404 on two separate fetches. The Scrutinizer REST
+  API and MCP server are served from self-hosted customer instances, so any
+  discovery surface would live per-deployment rather than on the corporate host.

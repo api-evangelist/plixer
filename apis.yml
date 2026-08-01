@@ -1,22 +1,98 @@
 aid: plixer
 name: Plixer
-description: Plixer is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plixer is a network observability and defense company whose platform combines
+  network flow (NetFlow/IPFIX) data with AI-driven analysis to help IT and
+  security teams investigate incidents, detect threats, and optimize performance
+  across on-premises, cloud, and zero-trust environments. Its products include
+  Plixer One (unified observability), Plixer Scrutinizer (flow-first visibility
+  with a native MCP server), FlowPro (threat detection), Replicator (NetFlow
+  distribution), Machine Learning behavioral analytics, Endpoint Analytics, and
+  an AI Assistant for natural-language queries grounded in flow data. Plixer
+  Scrutinizer exposes a REST API and, as of Plixer 19.8, a native Model Context
+  Protocol server. Backed by Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/plixer/refs/heads/main/apis.yml
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://www.plixer.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
+x-tier: profiled
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Network Observability
+- Network Security
+- Network Detection and Response
+- NetFlow
+- IPFIX
+- Network Traffic Analysis
+- Cybersecurity
+apis:
+- name: Plixer Scrutinizer REST API
+  description: >-
+    REST API for Plixer Scrutinizer flow analytics — run flow reports, manage
+    alarms, tune detections, trigger packet captures, and work with Collections.
+    Scrutinizer is deployed as a self-hosted appliance/instance, so the API is
+    served from the customer's own Scrutinizer host (path /api/). Reference
+    documentation is published on docs.plixer.com (login required).
+  humanURL: https://docs.plixer.com/projects/scrutinizer/en/latest/
+  baseURL: https://docs.plixer.com/projects/scrutinizer/en/latest/
+  x-hosting: self-hosted appliance; API served at /api/ on the customer instance
+  properties:
+  - type: Documentation
+    url: https://docs.plixer.com/projects/scrutinizer/en/latest/
+  - type: MCPServer
+    url: mcp/plixer-mcp.yml
+common:
+- type: DomainSecurity
+  url: security/plixer-domain-security.yml
+- type: Website
+  url: https://www.plixer.com
+- type: DeveloperPortal
+  url: https://docs.plixer.com
+- type: Documentation
+  url: https://docs.plixer.com
+- type: Blog
+  url: https://www.plixer.com/blog/
+- type: Support
+  url: https://www.plixer.com/customers/support/open-case/
+- type: Pricing
+  url: https://www.plixer.com/pricing/
+- type: SignUp
+  url: https://www.plixer.com/demo/
+- type: TermsOfService
+  url: https://www.plixer.com/terms
+- type: PrivacyPolicy
+  url: https://www.plixer.com/privacy
+- type: MCPServer
+  url: mcp/plixer-mcp.yml
+- type: Plans
+  url: plans/plixer-plans.yml
+- type: LLMsTxt
+  url: llms/plixer-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

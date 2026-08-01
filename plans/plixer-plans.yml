@@ -1,0 +1,60 @@
+generated: '2026-07-20'
+method: searched
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: Plixer
+providerId: plixer
+created: '2026-07-20'
+modified: '2026-07-20'
+tags:
+  - Network Observability
+  - Network Security
+  - NetFlow
+description: >-
+  Plixer publishes list pricing for its two flagship platforms, each licensed
+  for 100,000 flows per second, plus a 30-day free demo/trial. Larger volumes
+  and custom proposals go through sales. Values captured verbatim from the
+  public pricing page.
+sources:
+  - https://www.plixer.com/pricing/
+plans:
+  - id: plixer-trial
+    name: Trial
+    type: free
+    description: 30-day access to the Plixer demo at no cost.
+    entries:
+      - label: 30-day demo
+        name: trial
+        type: flat
+        price: '0'
+        timeFrame: month
+  - id: plixer-scrutinizer
+    name: Plixer Scrutinizer
+    type: subscription
+    description: Flow-first visibility for network performance and security, licensed for 100,000 flows/sec.
+    entries:
+      - label: Scrutinizer monthly
+        name: scrutinizer_monthly
+        type: flat
+        price: '850'
+        timeFrame: month
+      - label: Scrutinizer annual
+        name: scrutinizer_annual
+        type: flat
+        price: '10200'
+        timeFrame: year
+  - id: plixer-one
+    name: Plixer One
+    type: subscription
+    description: Unified observability platform correlating network, application, and security telemetry, licensed for 100,000 flows/sec.
+    entries:
+      - label: Plixer One monthly
+        name: plixer_one_monthly
+        type: flat
+        price: '2000'
+        timeFrame: month
+      - label: Plixer One annual
+        name: plixer_one_annual
+        type: flat
+        price: '24000'
+        timeFrame: year

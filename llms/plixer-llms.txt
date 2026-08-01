@@ -1,0 +1,33 @@
+# Plixer
+
+> Plixer is a network observability and defense company. Its platform combines network flow (NetFlow/IPFIX) data with AI-driven analysis to help IT and security teams investigate incidents, detect threats, and optimize performance across on-premises, cloud, and zero-trust environments. Plixer Scrutinizer exposes a REST API and, as of Plixer 19.8, a native Model Context Protocol (MCP) server.
+
+## Products
+
+- [Plixer One](https://www.plixer.com/): Unified observability platform correlating network, application, and security telemetry.
+- [Plixer Scrutinizer](https://www.plixer.com/): Flow-first visibility for network performance and security, with a native MCP server.
+- [Plixer FlowPro](https://www.plixer.com/): Threat detection and protection against hidden threats.
+- [Plixer Replicator](https://www.plixer.com/): NetFlow data replication and distribution.
+- [Plixer Machine Learning](https://www.plixer.com/): Behavioral analytics for cybersecurity.
+- [Plixer Endpoint Analytics](https://www.plixer.com/): Endpoint behavior intelligence.
+
+## APIs
+
+- [Plixer Scrutinizer REST API](https://docs.plixer.com/projects/scrutinizer/en/latest/): REST API for flow reports, alarms, detections, packet captures, and Collections. Self-hosted appliance; served at /api/ on the customer instance. Reference docs require login.
+
+## Agents / MCP
+
+- [Plixer Scrutinizer MCP server](https://www.plixer.com/blog/your-team-already-has-the-ai-now-it-can-see-the-network/): Native MCP server (Plixer 19.8+) that lets any MCP-compatible AI tool run flow reports, resolve names to interfaces, pivot to top talkers, browse/acknowledge alarms, tune detections, trigger packet captures, and open Collections. All operations run under existing Plixer permissions: authenticated, logged, rate-limited, and scoped.
+- MCP manifest: https://raw.githubusercontent.com/api-evangelist/plixer/refs/heads/main/mcp/plixer-mcp.yml
+
+## Docs
+
+- [Documentation](https://docs.plixer.com/)
+- [Pricing](https://www.plixer.com/pricing/)
+- [Blog](https://www.plixer.com/blog/)
+- [Support](https://www.plixer.com/customers/support/open-case/)
+
+## Optional
+
+- [Terms of Use](https://www.plixer.com/terms)
+- [Privacy Policy](https://www.plixer.com/privacy)
