@@ -2,35 +2,38 @@ generated: '2026-07-20'
 method: searched
 status: published
 source: https://www.plixer.com/blog/your-team-already-has-the-ai-now-it-can-see-the-network/
-description: >-
-  Plixer ships a native Model Context Protocol (MCP) server as part of Plixer
-  Scrutinizer / Plixer One, released in Plixer 19.8 and available to all
-  Scrutinizer and Plixer One customers at no additional charge. Any
-  MCP-compatible AI tool (Claude, ChatGPT, or an agentic SOC/NOC platform) can
-  point directly at Plixer's investigative engine. All operations run under the
-  team's existing Plixer permissions and are governed: authenticated, logged,
-  rate-limited, and scoped to data the user is already authorized to see. The
-  server ships on the Scrutinizer appliance/instance; transport and connection
-  URL are configured per deployment and were not published verbatim.
+description: 'Plixer ships a native Model Context Protocol (MCP) server as part of Plixer Scrutinizer
+  / Plixer One, released in Plixer 19.8 and available to all Scrutinizer and Plixer One customers at no
+  additional charge. Any MCP-compatible AI tool (Claude, ChatGPT, or an agentic SOC/NOC platform) can
+  point directly at Plixer''s investigative engine. All operations run under the team''s existing Plixer
+  permissions and are governed: authenticated, logged, rate-limited, and scoped to data the user is already
+  authorized to see. The server ships on the Scrutinizer appliance/instance; transport and connection
+  URL are configured per deployment and were not published verbatim.'
 server:
   name: plixer-scrutinizer
   transport: unspecified
   bundled_with: Plixer Scrutinizer / Plixer One (19.8+)
   auth: existing Plixer user permissions (authenticated, logged, rate-limited, scoped)
 tools:
-  - name: run_flow_reports
-    description: Run network flow reports against Scrutinizer's flow data.
-  - name: resolve_names
-    description: Resolve plain-language names to the network interfaces behind them.
-  - name: pivot_top_talkers
-    description: Pivot an investigation to the top talkers on the network.
-  - name: browse_alarms
-    description: Browse alarms raised by Scrutinizer.
-  - name: acknowledge_alarms
-    description: Acknowledge alarms.
-  - name: tune_detections
-    description: Tune threat/anomaly detections.
-  - name: trigger_packet_capture
-    description: Trigger targeted packet captures.
-  - name: open_collections
-    description: Open Collections (grouped investigative context) in Scrutinizer.
+- name: run_flow_reports
+  description: Run network flow reports against Scrutinizer's flow data.
+- name: resolve_names
+  description: Resolve plain-language names to the network interfaces behind them.
+- name: pivot_top_talkers
+  description: Pivot an investigation to the top talkers on the network.
+- name: browse_alarms
+  description: Browse alarms raised by Scrutinizer.
+- name: acknowledge_alarms
+  description: Acknowledge alarms.
+- name: tune_detections
+  description: Tune threat/anomaly detections.
+- name: trigger_packet_capture
+  description: Trigger targeted packet captures.
+- name: open_collections
+  description: Open Collections (grouped investigative context) in Scrutinizer.
+deployment:
+  mode: unclear
+  verified: searched
+  tools: 8
+  checked: '2026-08-12'
+  source: catalog MCP census
