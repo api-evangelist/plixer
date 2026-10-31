@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Plixer is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Plixer is a network observability and defense company whose platform combines network flow (NetFlow/IPFIX) data with AI-driven analysis to help IT and security teams investigate incidents, detect threats, and optimize performance across on-premises, cloud, and zero-trust environments. Its products include Plixer One (unified observability), Plixer Scrutinizer (flow-first visibility with a native MCP server), FlowPro (threat detection), Replicator (NetFlow distribution), Machine Learning behavioral analytics, Endpoint Analytics, and an AI Assistant for natural-language queries grounded in flow data. Plixer Scrutinizer exposes a REST API and, as of Plixer 19.8, a native Model Context Protocol server. Backed by Battery Ventures.
 
-Backed by: battery-ventures
+**Areas:** Company · Network Observability · Network Security · Network Detection and Response · NetFlow · IPFIX · Network Traffic Analysis · Cybersecurity
+
+## Plixer on APIs.io
+
+Everything profiled for Plixer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/plixer/](https://apis.io/providers/plixer/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Plixer Scrutinizer REST API](https://apis.io/apis/plixer/plixer-scrutinizer-rest-api/) — REST API for Plixer Scrutinizer flow analytics — run flow reports, manage alarms, tune detections, trigger packet captures, and work with Collections.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [plixer-scrutinizer](https://apis.io/servers/plixer/plixer-scrutinizer/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Plixer Domain Security](https://apis.io/security/plixer/plixer-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plixer Plans](https://apis.io/plans/plixer/plixer-plans/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.plixer.com)
+- [Documentation](https://docs.plixer.com)
+- [Pricing](https://www.plixer.com/pricing/)
+- [Sign up](https://www.plixer.com/demo/)
+- [Support](https://www.plixer.com/customers/support/open-case/)
+- [Blog](https://www.plixer.com/blog/)
+- [Terms of service](https://www.plixer.com/terms)
+- [Privacy policy](https://www.plixer.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 27.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 76.3 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/plixer/](https://apis.io/providers/plixer/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Plixer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/plixer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
